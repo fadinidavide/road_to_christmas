@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Scopri la nuova offerta del giorno su Sedici Piadina Bra! - Road to Christmas
+DESCRIPTION:Ogni giorno una nuova offerta ti aspetta su Sedici Piadina. Controlla ora sull'app! Clicca qui: https://onelink.to/qyx6q2
+LOCATION:https://onelink.to/qyx6q2
+DTSTART:20241201T110000
+DTEND:20241201T120000
+RRULE:FREQ=DAILY;UNTIL=20241224T110000
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Non dimenticare di controllare l'offerta del giorno su Sedici Piadina!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
